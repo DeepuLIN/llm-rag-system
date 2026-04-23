@@ -4,7 +4,7 @@ from typing import List, Optional, Any
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from src.graph.graph import build_graph
+
 
 
 app = FastAPI(title="Agentic RAG")
@@ -12,7 +12,9 @@ app = FastAPI(title="Agentic RAG")
 
 @lru_cache(maxsize=1)
 def get_graph():
+    from src.graph.graph import build_graph
     return build_graph()
+
 
 
 # ---------------------------
