@@ -1,4 +1,6 @@
-
+![CI](https://github.com/DeepuLIN/llm-rag-system/actions/workflows/ci.yml/badge.svg)
+![Docker](https://github.com/DeepuLIN/llm-rag-system/actions/workflows/docker.yml/badge.svg)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
 # 🧠 Agentic RAG System (LangGraph + FastAPI + Docker)
 
 An end-to-end **Agentic Retrieval-Augmented Generation (RAG)** system built using:
