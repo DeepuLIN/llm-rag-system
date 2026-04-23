@@ -1,0 +1,13 @@
+langchain
+langchain-community
+langchain-core
+langgraph
+langchain-ollama
+langchain-huggingface
+chromadb
+sentence-transformers
+python-dotenv
+fastapi
+uvicorn
+pytest
+httpx
