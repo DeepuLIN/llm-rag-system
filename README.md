@@ -30,17 +30,29 @@ This project demonstrates how to build a production-style LLM system with modula
 ## 🏗️ Architecture
 
 User Query
+
    ↓
+   
 FastAPI (/ask)
+
    ↓
+   
 LangGraph Agent
+
    ↓
+   
 [Query Rewrite]
+
    ↓
+   
 [Retriever → ChromaDB]
+
    ↓
+   
 [LLM (Ollama)]
+
    ↓
+   
 Final Answer + Trace
 
 ---
@@ -48,20 +60,30 @@ Final Answer + Trace
 ## 📂 Project Structure
 
 src/
+
 ├── api/            # FastAPI app
+
 ├── graph/          # LangGraph definition
+
 ├── nodes/          # Agent nodes (rag, router, final)
+
 ├── rag/            # RAG pipeline (retriever, vectorstore)
 
+
 data/
+
 └── knowledge-base/ # Markdown knowledge base
+
 
 vector_db/          # ChromaDB (local, not committed)
 
+
 .github/
+
 └── workflows/      # CI/CD pipelines
 
 Dockerfile
+
 docker-compose.yml
 
 ---
@@ -155,7 +177,7 @@ CD (Docker):
 ## 👤 Author
 
 Deepak L  
-MSc Mechatronics | ML | Computer Vision | MLOps
+ML | Computer Vision | MLOps
 
 ---
 
