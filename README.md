@@ -58,7 +58,7 @@ FastAPI (/ask)
 LangGraph Agent
 
    ↓
-<<<<<<< HEAD
+
    
 [Query Rewrite]
 
@@ -78,7 +78,7 @@ Query Rewriter (if needed)
 Retriever (ChromaDB)
    ↓
 LLM (Ollama)
->>>>>>> 0a49f7d (remove notebook checkpoints and update gitignore)
+
    ↓
    
 Final Answer + Trace
